@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_animation_sample/fade_widget.dart';
 
 void main() {
   runApp(const MainApp());
@@ -11,8 +12,15 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
+        body: SafeArea(
+          child: Padding(
+            padding: EdgeInsets.all(16),
+            child: Column(
+              children: [
+                FadeWidget(),
+              ],
+            ),
+          ),
         ),
       ),
     );
