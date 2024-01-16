@@ -55,7 +55,7 @@ class _AnimatedContainerDemoState extends State<AnimatedContainerDemo> {
               color: _color,
               borderRadius: _borderRadius,
               margin: _margin,
-              title: 'Default',
+              title: 'Default (Linear)',
             ),
             _AnimatedShape(
               color: _color,
