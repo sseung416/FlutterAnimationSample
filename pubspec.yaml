@@ -18,10 +18,4 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - assets/images/cat.jpg
-    - assets/images/cat2.webp
-    - assets/images/cat3.webp
-    - assets/images/flutter.png
-    - assets/images/dash.png
-    - assets/images/dash2.png
-    - assets/images/dash3.png
+    - assets/images/
