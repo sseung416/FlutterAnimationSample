@@ -33,13 +33,14 @@ class _TweenAnimationBuilderDemoState extends State<TweenAnimationBuilderDemo> {
         SizedBox(
           width: 500,
           child: Slider.adaptive(
-              value: _sliderValue,
-              onChanged: (double value) {
-                setState(() {
-                  _sliderValue = value;
-                  _endColor = Color.lerp(Colors.white, Colors.blue, value);
-                });
-              }),
+            value: _sliderValue,
+            onChanged: (double value) {
+              setState(() {
+                _sliderValue = value;
+                _endColor = Color.lerp(Colors.white, Colors.blue, value);
+              });
+            },
+          ),
         ),
       ],
     );
